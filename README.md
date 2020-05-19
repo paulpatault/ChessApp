@@ -16,7 +16,7 @@ $ npm start
 
 | ![Preview image](assets/preview/1.png) | ![Preview image](assets/preview/2.png) | ![Preview image](assets/preview/3.png) | ![Preview image](assets/preview/4.png) |
 |:-------------:|:-------------:|:-------------:|:-------------:|
-|*First State* <br> select file & player|*Image Loaded*|*Computing...*|*Here is the result !*|
+|**First State** <br> (Select File & Player)|**Image Loaded**|**Computing...**|**Here is the result !**|
 
 # License
 [MIT](https://choosealicense.com/licenses/mit/) License
