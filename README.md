@@ -14,9 +14,9 @@ $ npm start
 
 # Preview
 
-| ![Preview image](assets/preview/1.png) | ![Preview image](assets/preview/2.png) | ![Preview image](assets/preview/4.png) |
-|----------|:-------------:|------:|
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*First State*|*Image Loaded*|*Here is the result !*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+| ![Preview image](assets/preview/1.png) | ![Preview image](assets/preview/2.png) | ![Preview image](assets/preview/3.png) | ![Preview image](assets/preview/4.png) |
+|:-------------:|:-------------:|:-------------:|:-------------:|
+|*First State*|*Image Loaded*|*Computing...*|*Here is the result !*|
 
 # License
 [MIT](https://choosealicense.com/licenses/mit/) License
