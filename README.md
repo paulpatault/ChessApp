@@ -1,5 +1,5 @@
 # ChessApp
- An ElectronJS GUI that recognize a chess position from a screenshot and return the best move.
+ An [ElectronJS](https://www.electronjs.org/) GUI that recognize a chess position from a screenshot and return the best move.
 
 # Dependencies
 
@@ -11,3 +11,12 @@ Then:
 ```
 $ npm start
 ```
+
+# Preview
+
+| ![Preview image](assets/preview/1.png) | ![Preview image](assets/preview/2.png) | ![Preview image](assets/preview/4.png) |
+|----------|:-------------:|------:|
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*First State*|*Image Loaded*|*Here is the result !*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+
+# License
+[MIT](https://choosealicense.com/licenses/mit/) License
