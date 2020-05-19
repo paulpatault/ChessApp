@@ -2,23 +2,23 @@
   "name": "chess-analyser-app",
   "productName": "Chess Analyser",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "ElectronJS GUI that recognize a chess position from a screenshot and return the best move",
   "main": "src/main.js",
   "scripts": {
     "start": "electron .",
     "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=./assets/build/pack/electron.icns --prune=true --out=release-builds --ignore='assets' --ignore='\\.vscode' --ignore='\\.git(ignore|attributes)'",
     "create-installer-mac": "electron-installer-dmg ./release-builds/Chess\\ Analyser-darwin-x64/Chess\\ Analyser.app chess-analyser-app --out=release-builds --overwrite --background=./assets/build/dmg/background.png --icon=./assets/build/dmg/electron.icns"
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/paulpatault/ChessApp",
   "keywords": [
     "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
+    "Python",
+    "Chess",
+    "IA",
+    "Javascript"
   ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
+  "author": "Paul PATAULT",
+  "license": "MIT",
   "devDependencies": {
     "electron": "^8.2.5",
     "electron-installer-dmg": "^3.0.0",

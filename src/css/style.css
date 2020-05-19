@@ -17,3 +17,11 @@ input {
 button {
     -webkit-app-region: no-drag;
 }
+
+img {
+    border: 1px black solid;
+}
+
+.result {
+    font-weight: bold;
+}

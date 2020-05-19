@@ -4,14 +4,14 @@
 
 .loading {
     display: flex;
-    animation-delay: 1s;
+    animation-delay: 0.9s;
 }
 
 .loading .dot {
     position: relative;
-    width: 2em;
-    height: 2em;
-    margin: 0.8em;
+    width: 1.7em;
+    height: 1.7em;
+    margin: 1em;
     border-radius: 50%;
 }
 
@@ -22,11 +22,13 @@
     height: 100%;
     background: inherit;
     border-radius: inherit;
-    animation: wave 2s ease-out infinite;
+    animation: wave 1s ease-out infinite;
 }
 
 .loading .dot:nth-child(1) {
-    background: #9fe4b4;
+    /* background: #9fe4b4; */
+    /* background: #dfc493; */
+    background: #93bddf;
 }
 
 .loading .dot:nth-child(1)::before {
@@ -34,7 +36,9 @@
 }
 
 .loading .dot:nth-child(2) {
-    background: #83e7a1;
+    /* background: #83e7a1; */
+    /* background: #e6bb7b; */
+    background: #7bb2e6;
 }
 
 .loading .dot:nth-child(2)::before {
@@ -42,7 +46,9 @@
 }
 
 .loading .dot:nth-child(3) {
-    background: #53b671;
+    /* background: #53b671; */
+    /* background: #b4904c; */
+    background: #4c85b4;
 }
 
 .loading .dot:nth-child(3)::before {
@@ -50,7 +56,9 @@
 }
 
 .loading .dot:nth-child(4) {
-    background: rgb(51, 148, 80);
+    /* background: rgb(51, 148, 80); */
+    /* background: #966d30; */
+    background: #306d96;
 }
 
 .loading .dot:nth-child(4)::before {
@@ -58,7 +66,9 @@
 }
 
 .loading .dot:nth-child(5) {
-    background: #177032;
+    /* background: #177032; */
+    /* background: #7a5318; */
+    background: #18567a;
 }
 
 .loading .dot:nth-child(5)::before {
