@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Hello World!</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+
+<body>
+  <h1>Chess analyser</h1>
+
+  <div id="dropContainer">
+    Entrez une image : <br>
+    <input type="file" onchange="previewFile()" id="fileInput" accept="image/*" /><br>
+  </div>
+  <p id="res"></p>
+
+  <div id="loading">
+    <div class="loading">
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div>
+  </div>
+
+  <div id="radio">
+    <div>
+      <input type="radio" id="wtp" name="tp" checked>
+      <label for="wtp">Trait aux Blancs</label>
+    </div>
+    <div>
+      <input type="radio" id="btp" name="tp">
+      <label for="btp">Trait aux Noirs</label>
+    </div>
+  </div>
+
+  <br>
+  <img src="" height="200" alt="">
+  <br>
+  <br>
+  <button id="btn-analyse" onclick="analyse()"> Analyse </button>
+
+  <script src="./js/renderer.js"></script>
+</body>
+
+</html>

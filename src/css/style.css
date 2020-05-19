@@ -1,0 +1,9 @@
+@import url(loading.css);
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: aliceblue;
+}
+
+input {
+    margin: .4rem;
+}
