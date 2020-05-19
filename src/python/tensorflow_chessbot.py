@@ -225,13 +225,6 @@ def getFEN(args):
         )
 
     active = args.active
-    if active != "w":
-        # print("---\nPredicted FEN:\n%s %s - - 0 1" % (short_fen, active))
-        if verbose:
-            print(f"---\nPredicted FEN:\n{short_fen[::-1]} {active} - - 0 1")
-            print("Final Certainty: %.1f%%" % (certainty * 100))
-        return f"{short_fen[::-1]} {active} - - 0 1"
-    # print("---\nPredicted FEN:\n%s %s - - 0 1" % (short_fen, active))
     if verbose:
         print(f"---\nPredicted FEN:\n{short_fen} {active} - - 0 1")
         print("Final Certainty: %.1f%%" % (certainty * 100))

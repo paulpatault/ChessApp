@@ -2,8 +2,18 @@
 * {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: aliceblue;
+    text-align: center;
+}
+
+html {
+    -webkit-app-region: drag
 }
 
 input {
+    -webkit-app-region: no-drag;
     margin: .4rem;
+}
+
+button {
+    -webkit-app-region: no-drag;
 }

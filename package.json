@@ -1,10 +1,13 @@
 {
-  "name": "electron-quick-start",
+  "name": "chess-analyser-app",
+  "productName": "Chess Analyser",
   "version": "1.0.0",
   "description": "A minimal Electron application",
   "main": "src/main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=./assets/build/pack/electron.icns --prune=true --out=release-builds --ignore='assets' --ignore='\\.vscode' --ignore='\\.git(ignore|attributes)'",
+    "create-installer-mac": "electron-installer-dmg ./release-builds/Chess\\ Analyser-darwin-x64/Chess\\ Analyser.app chess-analyser-app --out=release-builds --overwrite --background=./assets/build/dmg/background.png --icon=./assets/build/dmg/electron.icns"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
@@ -17,6 +20,12 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^8.2.5"
+    "electron": "^8.2.5",
+    "electron-installer-dmg": "^3.0.0",
+    "electron-packager": "^14.2.1"
+  },
+  "dependencies": {
+    "chess.js": "^0.10.3",
+    "stockfish": "^10.0.2"
   }
 }
