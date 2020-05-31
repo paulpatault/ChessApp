@@ -23,4 +23,4 @@ $ npm start
 
 # Acknowledgement
 
-This project is strongly supported by [Elucidation/tensorflow_chessbot](https://github.com/Elucidation/tensorflow_chessbot)
+This project is strongly supported by [Elucidation/tensorflow_chessbot](https://github.com/Elucidation/tensorflow_chessbot) and [jhlywa/chess.js](https://github.com/jhlywa/chess.js)
