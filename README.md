@@ -20,3 +20,7 @@ $ npm start
 
 # License
 [MIT](https://choosealicense.com/licenses/mit/) License
+
+# Acknowledgement
+
+This project is strongly supported by [Elucidation/tensorflow_chessbot](https://github.com/Elucidation/tensorflow_chessbot)
